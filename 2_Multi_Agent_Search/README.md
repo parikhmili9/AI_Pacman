@@ -26,3 +26,38 @@ This project includes an autograder for you to grade your answers on your machin
 ```
 python autograder.py
 ```
+
+# How to run
+Download the folders and install them locally. You can run these commands on the terminal while being in the folder /multiagents: <br /> <br />
+1. Reflex Agent:
+```
+  $ python pacman.py --frameTime 0 -p ReflexAgent -k 1
+  $ python pacman.py --frameTime 0 -p ReflexAgent -k 2
+  $ python autograder.py -q q1
+```
+2. Minimax algorithm:
+```
+  $ python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
+  $ python pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
+  $ python autograder.py -q q2
+```
+3. Alpha-Beta pruning algorithm:
+```
+  $ python pacman.py -p AlphaBetaAgent -a depth=3 -l smallClassic
+  $ python pacman.py -p AlphaBetaAgent -l trappedClassic -a depth=3 -q -n 10
+  $ python autograder.py -q q3
+```
+4. Expectimax algorithm:
+```
+  $ python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=3
+  $ python pacman.py -p ExpectimaxAgent -l trappedClassic -a depth=3 -q -n 10
+  $ python autograder.py -q q4
+```
+5. Evaluation Function:
+```
+  $ python autograder.py -q q5
+```
+
+
+
+

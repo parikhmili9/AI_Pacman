@@ -12,3 +12,11 @@ There are 4 parts in this project:
    Implemented model-based and model-free reinforcement learning algorithms, applied to the AIMA textbook’s Gridworld, Pacman, and a simulated crawling robot.
 5. BNs and HMMs (Ghosbusters):
    Probabilistic inference in a Hidden Markov Model tracks the movement of hidden ghosts in the Pacman world. Implemented exact inference using the forward algorithm and approximate inference via particle filters.
+
+### :video_game: Play a game of pacman
+```
+  $ python pacman.py
+```
+
+## Built With
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
