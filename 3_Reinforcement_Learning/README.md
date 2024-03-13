@@ -1,4 +1,4 @@
-# Multi-Agent Search in Pacman
+# Reinforcement Learning in Pacman
 
 # Introduction
 In this project, I implemented value iteration and Q-learning. I will test the agents first on Gridworld (from class), then apply them to a simulated robot controller (Crawler) and Pacman.
@@ -24,7 +24,7 @@ python gridworld.py -g MazeGrid
 
 
 # Implementation
-Followed all the steps from here: https://inst.eecs.berkeley.edu/~cs188/fa19/project2/
+Followed all the steps from here: https://inst.eecs.berkeley.edu/~cs188/fa19/project3/
 
 # Autograder (How to evaluate the program):
 This project includes an autograder for you to grade your answers on your machine. This can be run with the command:
